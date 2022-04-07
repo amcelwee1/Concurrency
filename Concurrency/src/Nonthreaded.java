@@ -3,6 +3,7 @@ import java.util.Random;
 public class Nonthreaded {
 
 	public static void main(String[] args) {
+		long start = System.currentTimeMillis();
 		// TODO Auto-generated method stub
 		int max = 10;
 		int min = 1;
@@ -17,6 +18,8 @@ public class Nonthreaded {
 			sum = sum+arr[i];
 			}
 		System.out.println("Total Sum = " + sum);
+		long end = System.currentTimeMillis();
+		System.out.println((end - start) + " ms");
 
 	}
 

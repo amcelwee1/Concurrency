@@ -10,6 +10,7 @@ public class Concurrency {
 	}
 
 	public static void main(String[] args) {
+		long start = System.currentTimeMillis();
 		//creating a min and max integer to prevent roll-over
 		int max = 10;
 		int min = 1;
@@ -112,6 +113,8 @@ public class Concurrency {
 		}
 		
 		System.out.println("Total Sum = " + totalSum);
+		long end = System.currentTimeMillis();
+		System.out.println((end - start) + " ms");
 		
 		}
 		
