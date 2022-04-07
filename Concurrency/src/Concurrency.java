@@ -11,8 +11,8 @@ public class Concurrency {
 
 	public static void main(String[] args) {
 		//creating a min and max integer to prevent roll-over
-		int max = 1000;
-		int min = -1000;
+		int max = 10;
+		int min = 1;
 		
 		//instantiating 1/4 of 200000000
 		Thread t1 = new Thread(new Runnable() {

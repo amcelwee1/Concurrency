@@ -4,8 +4,8 @@ public class Nonthreaded {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int max = 1000;
-		int min = -1000;
+		int max = 10;
+		int min = 1;
 		Random rand = new Random();
 		int[] arr = new int[200000000];
 		for (int i = 0; i < arr.length; i++) {
@@ -16,7 +16,7 @@ public class Nonthreaded {
 		for (int i = 0; i<arr.length; i++) {
 			sum = sum+arr[i];
 			}
-		System.out.println(sum);
+		System.out.println("Total Sum = " + sum);
 
 	}
 
