@@ -28,7 +28,7 @@ public class Concurrency {
 				for (int i = 0; i<arr.length; i++) {
 					tSum = tSum+arr[i];
 					}
-				System.out.println(tSum);
+				//System.out.println(tSum);
 				incsum(tSum);
 			}
 			
@@ -48,7 +48,7 @@ public class Concurrency {
 				for (int i = 0; i<arr.length; i++) {
 					tSum = tSum+arr[i];
 					}
-				System.out.println(tSum);
+				//System.out.println(tSum);
 				incsum(tSum);
 			}
 			
@@ -68,7 +68,7 @@ public class Concurrency {
 				for (int i = 0; i<arr.length; i++) {
 					tSum = tSum+arr[i];
 					}
-				System.out.println(tSum);
+				//System.out.println(tSum);
 				incsum(tSum);
 			}
 			
@@ -88,7 +88,7 @@ public class Concurrency {
 				for (int i = 0; i<arr.length; i++) {
 					tSum = tSum+arr[i];
 					}
-				System.out.println(tSum);
+				//System.out.println(tSum);
 				incsum(tSum);
 			}
 			
