@@ -5,7 +5,7 @@ public class Concurrency {
 	private static int totalSum=0;
 	
 	//synchronizing the threads with each other
-	public static synchronized void incsum(int sum) {
+	public static synchronized void incSum(int sum) {
 		totalSum = totalSum + sum;
 	}
 
@@ -29,7 +29,7 @@ public class Concurrency {
 					tSum = tSum+arr[i];
 					}
 				//System.out.println(tSum);
-				incsum(tSum);
+				incSum(tSum);
 			}
 			
 		});
@@ -49,7 +49,7 @@ public class Concurrency {
 					tSum = tSum+arr[i];
 					}
 				//System.out.println(tSum);
-				incsum(tSum);
+				incSum(tSum);
 			}
 			
 		});
@@ -69,7 +69,7 @@ public class Concurrency {
 					tSum = tSum+arr[i];
 					}
 				//System.out.println(tSum);
-				incsum(tSum);
+				incSum(tSum);
 			}
 			
 		});
@@ -89,7 +89,7 @@ public class Concurrency {
 					tSum = tSum+arr[i];
 					}
 				//System.out.println(tSum);
-				incsum(tSum);
+				incSum(tSum);
 			}
 			
 		});
